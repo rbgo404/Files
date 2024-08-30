@@ -1,3 +1,4 @@
+cd /var/nfs-mount/ComfyUI
 git clone https://github.com/comfyanonymous/ComfyUI.git && cd ComfyUI && git pull
 pip install -r requirements.txt
 pip install xformers numba spandrel deepdiff boto3
