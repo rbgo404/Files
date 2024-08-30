@@ -59,3 +59,7 @@ wget -O embeddings/easynegative.safetensors https://civitai.com/api/download/mod
 wget -O loras/add_detail.safetensors https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor&token=fc327fd702a67e653369455b3a5e7d5c
 pwd
 cd ..
+cd ..
+mkdir data
+cd data
+wget -O https://github.com/rbgo404/ComfyUI/raw/main/comfy_ui_workflow.json
