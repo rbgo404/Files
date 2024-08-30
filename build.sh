@@ -1,9 +1,12 @@
-cd /var/nfs-mount/ComfyUI
+cd /var/nfs-mount/ComfyUI-VOL
+pwd
 git clone https://github.com/comfyanonymous/ComfyUI.git && cd ComfyUI && git pull
+pwd
 pip install -r requirements.txt
 pip install xformers numba spandrel deepdiff boto3
 cd models && mkdir -p ipadapter clip_vision animatediff_models
 cd ..
+pwd
 cd custom_nodes
 git clone https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved --recursive 
 git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite --recursive && cd ComfyUI-VideoHelperSuite && pip install -r requirements.txt
@@ -37,7 +40,9 @@ cd ..
 git clone https://github.com/sipherxyz/comfyui-art-venture.git --recursive && cd comfyui-art-venture && pip install -r requirements.txt
 cd ..
 cd ..
+pwd
 cd models
+pwd
 wget -O vae/vae-ft-mse-840000-ema-pruned.safetensors https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors
 wget -O checkpoints/dreamshaper_8.safetensors https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=fc327fd702a67e653369455b3a5e7d5c
 wget -O ipadapter/ip-adapter-plus_sd15.safetensors https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors
