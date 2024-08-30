@@ -62,4 +62,4 @@ cd ..
 cd ..
 mkdir data
 cd data
-wget -O https://github.com/rbgo404/ComfyUI/raw/main/comfy_ui_workflow.json
+wget -O comfy_ui_workflow.json https://github.com/rbgo404/ComfyUI/raw/main/comfy_ui_workflow.json
