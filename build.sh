@@ -53,7 +53,9 @@ wget -O animatediff_models/AnimateLCM_sd15_t2v.ckpt https://huggingface.co/wangf
 wget -O controlnet/control_v1p_sd15_qrcode_monster.safetensors https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/control_v1p_sd15_qrcode_monster.safetensors
 mkdir -p controlnet/SD1.5/animatediff
 wget -O controlnet/SD1.5/animatediff/v3_sd15_sparsectrl_rgb.ckpt https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_sparsectrl_rgb.ckpt
+pwd
 wget -O upscale_models/2x-AniScale.pth https://objectstorage.us-phoenix-1.oraclecloud.com/n/ax6ygfvpvzka/b/open-modeldb-files/o/2x-AniScale.pth
 wget -O embeddings/easynegative.safetensors https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16&token=fc327fd702a67e653369455b3a5e7d5c
 wget -O loras/add_detail.safetensors https://civitai.com/api/download/models/62833?type=Model&format=SafeTensor&token=fc327fd702a67e653369455b3a5e7d5c
+pwd
 cd ..
