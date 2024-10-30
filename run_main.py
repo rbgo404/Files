@@ -6,7 +6,7 @@ from GPT_SoVITS.inference_webui import change_gpt_weights, change_sovits_weights
 
 i18n = I18nAuto()
 
-def synthesize(,
+def synthesize(
     target_text,
     output_path
 ):
