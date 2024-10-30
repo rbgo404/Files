@@ -59,7 +59,7 @@ if __name__ == '__main__':
         
         # Call the synthesize function
         synthesize(
-            target_text=target_text,
+            target_text=text,
             output_path=output_path,
             idx=idx
         )
