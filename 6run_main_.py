@@ -43,6 +43,7 @@ if __name__ == '__main__':
     target_text = "This is the target text to synthesize."
     output_path = "/home/user/app/outputs/Files/outputs/gpts"
     sentences = [
+    "This is testing",
     "Coffee keeps me energized throughout work.",
     "The cat chased the mouse across the kitchen floor in excitement.",
     "After the long hike up the mountain, the group finally reached the summit, where they enjoyed breathtaking views of the valley below and rested before descending again.",
