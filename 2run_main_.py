@@ -23,7 +23,8 @@ def synthesize(
         prompt_text=None,
         prompt_language=i18n(ref_language),
         text=target_text,
-        text_language=i18n(target_language)
+        text_language=i18n(target_language),
+        inp_refs=None
     )
 
     result_list = list(synthesis_result)
